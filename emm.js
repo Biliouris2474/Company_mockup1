@@ -8,7 +8,7 @@ function currentSlide(n){
 }
 function slidesDisplay(n){
     var i;
-    var slides = Index.html.getElementsByClassName("slider");
+    var slides = document.getElementsByClassName("slider");
     if(n > slides.length) {slide_index = 1}
     if(n < 1){slide_index = slides.length}
     for (i = 0; i < slides.length; i++) {
