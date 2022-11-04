@@ -4,11 +4,6 @@
     <meta charset="utf-8">
 <Title>Emerrich Tool Supplies</Title>
 <link rel="stylesheet" href="Pub.css" type="text/css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.bin.js"></script>
-<script src="jquery.blueberry.js">
-
-</script>
 </head>
 
 <body>
@@ -17,12 +12,12 @@
         <a href="#" id="menu-icon"></a>
         <ul>
             <li> <a href="#" Class="current">Home</a> </li>
-            <li> <a href="#"> News</a> </li>
-            <li> <a href="#"> Consumers</a> </li>
-            <li> <a href="#"> Suppliers</a> </li>
-            <li> <a href="#"> Job Seekers</a> </li>
-            <li> <a href="#"> Contact Us</a> </li>
-            <li> <a href="#"> About Us</a> </li>
+            <li> <a href="Press.html"> News</a> </li>
+            <li> <a href="Consumers.html"> Consumers</a> </li>
+            <li> <a href="Suppliers.html"> Suppliers</a> </li>
+            <li> <a href="Recruit.html"> Job Seekers</a> </li>
+            <li> <a href="Contact.html"> Contact Us</a> </li>
+            <li> <a href="About.html"> About Us</a> </li>
         </ul>
         </nav>
     </header>
@@ -40,24 +35,28 @@
                 <a class="right" onclick="nextSlide(1)">❯</a>
        </div>
     <br>
-       <section>
+    <div class="infoparent">
+       <div class="infobox">
         <img src="images/toolrack2.jpg">
             <h1>Tools you can trust</h1>
-            <p>It's made of bussium</p>
-       </section>
-       <section>
+            <p>Built from industrial-quality steel anround a refined tungsten core, Emmerich tools are produced with premium strength and durability in mind. Emmerich Tools prides itself as an industry standard in reliable hardware.</p>
+    </div>
+       <div class="infobox">
         <img src="images/blueprint.jpg">
             <h1>Powered by instinct, guided by experience.</h1>
             <p>Founded in Wichita, Kansas in 1959, Emmerich Tool Supplies has grown from its humble origins as a family blacksmith into an engineering hub for the midwest, bringing together craftsmen, scientists and salesmen to deliver quality, wherever it's needed.</p>
-        </section>
-        <section>
+       </div>
+        <div class="infobox">
         <img src="images/welder.jpg">
             <h1>Passion and precision</h1>
             <p>The wide variety of tools required for engineering necessitates a combination of old and new techniques for the modern age. Emmerich Tools are manufactured using both artisanal crafting techniques and modern steel injection-molding to create industrial-quality hardware with a personal touch.</p>
-        </section>
+        </div>
+    </div>
         <div class="clear"></div>
         <article>
-        <img src="Locations.jpg"/>
+            <div id="map" class="map">
+                <div id="popup"></div>
+            </div>
 
         </article>
         <Aside>
@@ -71,8 +70,8 @@
                 <li><h3>San Francisco</h3></li>
             </ul>
         </Aside>
-        <div class="clear">
-            <img src="hand_tools.jpg"/>
+        <div class="bottom">
+            <img src="images/hand_tools.jpg"/>
             <h1>Manual tools</h1>
             <p>We offer a range of old-fashioned, reliable tools ready for any home improvement project.</p>
         </div>
@@ -92,8 +91,9 @@
                 <li><a href="https://instagram.com"><img src="images/iinsta.png"></a></li>
             </ul>
         </section>
-        <br>
+        <section>
         <p>Copyright Emmerich Tools LLC, 2022</p>
+        </section>
     </footer>
     <script src="emm.js">
     </script>
